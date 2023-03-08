@@ -1,0 +1,16 @@
+{
+  "name": "@phoenix/utils",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "version": "0.0.0",
+  "scripts": {
+    "lint": "eslint \"./src/**/*.ts*\"",
+    "test": ""
+  },
+  "devDependencies": {
+    "@phoenix/tsconfig": "workspace:*",
+    "eslint": "^8.35.0",
+    "eslint-config-phoenix": "workspace:*",
+    "typescript": "^4.9.5"
+  }
+}
